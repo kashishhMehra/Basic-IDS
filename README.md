@@ -1,6 +1,6 @@
 # Basic-IDS 🔍
 
-So I built this small IDS (Intrusion Detection System) in Python as a way to learn how network packets actually work under the hood. It's nothing fancy — just ~30 lines of code — but it genuinely sniffs real network traffic and can flag suspicious activity.
+So I built this small IDS (Intrusion Detection System) in Python as a way to learn how network packets actually work under the hood. It's just ~30 lines of code, but it genuinely sniffs real network traffic and can flag suspicious activity.
 
 ## What it does
 It sits quietly in the background, listening to all network packets passing through your machine. The moment it spots something suspicious in the packet data — like a dodgy domain or unauthorized access attempt — it calls it out.
